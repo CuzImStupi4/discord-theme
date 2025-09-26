@@ -2341,37 +2341,6 @@
     border-color: var(--bg-2) !important;
 }
 
-/* ===== FONT AND UI CUSTOMIZATION ===== */
-
-/* Apply font family */
 * {
     font-family: var(--font, 'Fredoka'), 'gg sans', 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-/* Custom corner text */
-[class^="wordmark-"] svg {
-    width: 0px;
-}
-
-[class^="wordmark-"]::after {
-    content: var(--corner-text);
-    font-size: 13px;
-    font-weight: 700;
-    color: var(--text-2);
-}
-
-/* Success indicator */
-body::after {
-    content: "Discord Midnight Theme ✓ Enhanced 2024+ with Custom Colors";
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: var(--accent-3);
-    color: var(--text-0);
-    padding: 4px 8px;
-    border-radius: 4px;
-    font-size: 10px;
-    z-index: 99999;
-    opacity: 0.8;
-    pointer-events: none;
 }
