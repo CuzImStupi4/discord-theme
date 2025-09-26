@@ -99,7 +99,34 @@
 .visual-refresh .theme-dark [class*=colorSpotify_],
 .visual-refresh .theme-dark [class*=colorPremium_],
 .visual-refresh .theme-dark [class*=colorPlayStation_],
-.visual-refresh .theme-dark .interactive:hover {
+.visual-refresh .theme-dark .interactive:hover,
+.theme-dark .sidebar_a4d4d9,
+.theme-dark .panels_a4d4d9,
+.theme-dark .container_f1fd9c,
+.theme-dark .membersWrap_cbd271,
+.theme-dark .chatContent_f087cb,
+.theme-dark .content_f2f4b3,
+.theme-dark .toolbar_fc4f04,
+.theme-dark .searchBar_f0963d,
+.theme-dark .wrapper_f46140,
+.visual-refresh.theme-dark .sidebar_a4d4d9,
+.visual-refresh.theme-dark .panels_a4d4d9,
+.visual-refresh.theme-dark .container_f1fd9c,
+.visual-refresh.theme-dark .membersWrap_cbd271,
+.visual-refresh.theme-dark .chatContent_f087cb,
+.visual-refresh.theme-dark .content_f2f4b3,
+.visual-refresh.theme-dark .toolbar_fc4f04,
+.visual-refresh.theme-dark .searchBar_f0963d,
+.visual-refresh.theme-dark .wrapper_f46140,
+.visual-refresh .theme-dark .sidebar_a4d4d9,
+.visual-refresh .theme-dark .panels_a4d4d9,
+.visual-refresh .theme-dark .container_f1fd9c,
+.visual-refresh .theme-dark .membersWrap_cbd271,
+.visual-refresh .theme-dark .chatContent_f087cb,
+.visual-refresh .theme-dark .content_f2f4b3,
+.visual-refresh .theme-dark .toolbar_fc4f04,
+.visual-refresh .theme-dark .searchBar_f0963d,
+.visual-refresh .theme-dark .wrapper_f46140 {
     --white: #232634;
     --white-500: #232634
 }
@@ -158,6 +185,53 @@
     --brand-330: #fbfcfe;
     --brand-360: #e5ecfb;
     --brand-400: #cfdbf8;
+    
+    /* Enhanced Discord 2024+ Variables */
+    --bg-base-primary: var(--bg-4);
+    --bg-base-secondary: var(--bg-3);
+    --bg-base-tertiary: var(--bg-2);
+    --bg-surface-overlay: var(--bg-3);
+    --bg-surface-overlay-tmp: var(--bg-3);
+    --bg-surface-raised: var(--bg-2);
+    --text-normal: var(--text-3);
+    --text-muted: var(--text-4);
+    --text-faint: var(--text-5);
+    --text-link: var(--accent-1);
+    --text-link-low-saturation: var(--accent-2);
+    --text-brand: var(--accent-3);
+    --interactive-normal: var(--text-4);
+    --interactive-hover: var(--hover);
+    --interactive-active: var(--active);
+    --interactive-muted: var(--text-5);
+    --scrollbar-thin-thumb: var(--bg-2);
+    --scrollbar-thin-track: var(--bg-4);
+    --scrollbar-auto-thumb: var(--bg-2);
+    --scrollbar-auto-track: var(--bg-4);
+    --elevation-stroke: var(--bg-1);
+    --elevation-low: var(--bg-3);
+    --elevation-medium: var(--bg-2);
+    --elevation-high: var(--bg-1);
+    --logo-primary: var(--text-2);
+    --control-brand-foreground: var(--accent-3);
+    --control-brand-foreground-new: var(--accent-3);
+    --background-mentioned: var(--mention);
+    --background-mentioned-hover: var(--mention-hover);
+    --background-message-hover: var(--message-hover);
+    --channels-default: var(--text-4);
+    --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    --channeltextarea-background: var(--bg-3);
+    --activity-card-background: var(--bg-3);
+    --textbox-markdown-syntax: var(--text-4);
+    --deprecated-card-bg: var(--bg-3);
+    --deprecated-card-editable-bg: var(--bg-2);
+    --deprecated-store-bg: var(--bg-4);
+    --deprecated-quickswitcher-input-background: var(--bg-2);
+    --deprecated-quickswitcher-input-placeholder: var(--text-4);
+    --deprecated-text-input-bg: var(--bg-2);
+    --deprecated-text-input-border: var(--bg-1);
+    --deprecated-text-input-border-hover: var(--bg-2);
+    --deprecated-text-input-border-disabled: var(--bg-3);
+    --deprecated-text-input-prefix: var(--text-4);
     --brand-430: #b8cbf5;
     --brand-460: #a2baf1;
     --brand-500: #8caaee !important;
@@ -810,6 +884,44 @@
 .visual-refresh .theme-dark div[class^=vc-addon-card]>div div[class^=container_] {
     --primary-400: #626880;
     transition: background-color .2s
+}
+
+/* New Discord UI Elements - Activity Cards, Threads, Forums */
+.theme-dark .activityPanel_c25c6e,
+.theme-dark .threadSidebar_bc1b90,
+.theme-dark .forumPost_f7e923,
+.theme-dark .browser_c25c6e,
+.theme-dark .gameWrapper_c25c6e,
+.theme-dark .activityCard_c25c6e,
+.theme-dark .threadCard_bc1b90,
+.theme-dark .forumThreadCard_f7e923,
+.theme-dark .channelTabs_c25c6e,
+.theme-dark .voicePanel_c25c6e,
+.theme-dark .mediaPlayer_c25c6e,
+.visual-refresh.theme-dark .activityPanel_c25c6e,
+.visual-refresh.theme-dark .threadSidebar_bc1b90,
+.visual-refresh.theme-dark .forumPost_f7e923,
+.visual-refresh.theme-dark .browser_c25c6e,
+.visual-refresh.theme-dark .gameWrapper_c25c6e,
+.visual-refresh.theme-dark .activityCard_c25c6e,
+.visual-refresh.theme-dark .threadCard_bc1b90,
+.visual-refresh.theme-dark .forumThreadCard_f7e923,
+.visual-refresh.theme-dark .channelTabs_c25c6e,
+.visual-refresh.theme-dark .voicePanel_c25c6e,
+.visual-refresh.theme-dark .mediaPlayer_c25c6e,
+.visual-refresh .theme-dark .activityPanel_c25c6e,
+.visual-refresh .theme-dark .threadSidebar_bc1b90,
+.visual-refresh .theme-dark .forumPost_f7e923,
+.visual-refresh .theme-dark .browser_c25c6e,
+.visual-refresh .theme-dark .gameWrapper_c25c6e,
+.visual-refresh .theme-dark .activityCard_c25c6e,
+.visual-refresh .theme-dark .threadCard_bc1b90,
+.visual-refresh .theme-dark .forumThreadCard_f7e923,
+.visual-refresh .theme-dark .channelTabs_c25c6e,
+.visual-refresh .theme-dark .voicePanel_c25c6e,
+.visual-refresh .theme-dark .mediaPlayer_c25c6e {
+    background-color: var(--bg-3) !important;
+    border-color: var(--bg-2) !important;
 }
 
 .theme-dark div[class^=vc-addon-card]>div div[class^=container_]>svg>rect,
@@ -1922,4 +2034,231 @@
 .visual-refresh.theme-light [style*="color: white"],
 .visual-refresh .theme-light [style*="color: white"] {
     color: var(--white) !important
+}
+
+/* ===== ENHANCED DISCORD 2024-2025 COMPATIBILITY ===== */
+
+/* New Sidebar and Navigation Elements */
+.theme-dark .sidebar_ded4b5,
+.theme-dark .panels_a4d4d9,
+.theme-dark .container_f1fd9c,
+.theme-dark .wrapper_f46140,
+.theme-dark .scroller_fea3ef,
+.theme-dark .content_f2f4b3,
+.theme-dark .chatContent_f087cb,
+.theme-dark .messagesWrapper_ea2b0b,
+.theme-dark .scrollerInner_d1330b,
+.visual-refresh.theme-dark .sidebar_ded4b5,
+.visual-refresh.theme-dark .panels_a4d4d9,
+.visual-refresh.theme-dark .container_f1fd9c,
+.visual-refresh.theme-dark .wrapper_f46140,
+.visual-refresh.theme-dark .scroller_fea3ef,
+.visual-refresh.theme-dark .content_f2f4b3,
+.visual-refresh.theme-dark .chatContent_f087cb,
+.visual-refresh.theme-dark .messagesWrapper_ea2b0b,
+.visual-refresh.theme-dark .scrollerInner_d1330b,
+.visual-refresh .theme-dark .sidebar_ded4b5,
+.visual-refresh .theme-dark .panels_a4d4d9,
+.visual-refresh .theme-dark .container_f1fd9c,
+.visual-refresh .theme-dark .wrapper_f46140,
+.visual-refresh .theme-dark .scroller_fea3ef,
+.visual-refresh .theme-dark .content_f2f4b3,
+.visual-refresh .theme-dark .chatContent_f087cb,
+.visual-refresh .theme-dark .messagesWrapper_ea2b0b,
+.visual-refresh .theme-dark .scrollerInner_d1330b {
+    background-color: var(--bg-4) !important;
+}
+
+/* New Channel List and Server List */
+.theme-dark .channels_c81bad,
+.theme-dark .tree_c81bad,
+.theme-dark .scroller_c81bad,
+.theme-dark .guilds_add4b9,
+.theme-dark .scrollerBase_dc00aa,
+.theme-dark .listItem_c96c45,
+.theme-dark .wrapper_c96c45,
+.visual-refresh.theme-dark .channels_c81bad,
+.visual-refresh.theme-dark .tree_c81bad,
+.visual-refresh.theme-dark .scroller_c81bad,
+.visual-refresh.theme-dark .guilds_add4b9,
+.visual-refresh.theme-dark .scrollerBase_dc00aa,
+.visual-refresh.theme-dark .listItem_c96c45,
+.visual-refresh.theme-dark .wrapper_c96c45,
+.visual-refresh .theme-dark .channels_c81bad,
+.visual-refresh .theme-dark .tree_c81bad,
+.visual-refresh .theme-dark .scroller_c81bad,
+.visual-refresh .theme-dark .guilds_add4b9,
+.visual-refresh .theme-dark .scrollerBase_dc00aa,
+.visual-refresh .theme-dark .listItem_c96c45,
+.visual-refresh .theme-dark .wrapper_c96c45 {
+    background-color: var(--bg-3) !important;
+}
+
+/* New Member List and Activity Feed */
+.theme-dark .membersWrap_cbd271,
+.theme-dark .members_cbd271,
+.theme-dark .member_cbd271,
+.theme-dark .activityFeed_c25c6e,
+.theme-dark .nowPlayingColumn_c25c6e,
+.theme-dark .spotifyActivity_c25c6e,
+.theme-dark .gameActivity_c25c6e,
+.visual-refresh.theme-dark .membersWrap_cbd271,
+.visual-refresh.theme-dark .members_cbd271,
+.visual-refresh.theme-dark .member_cbd271,
+.visual-refresh.theme-dark .activityFeed_c25c6e,
+.visual-refresh.theme-dark .nowPlayingColumn_c25c6e,
+.visual-refresh.theme-dark .spotifyActivity_c25c6e,
+.visual-refresh.theme-dark .gameActivity_c25c6e,
+.visual-refresh .theme-dark .membersWrap_cbd271,
+.visual-refresh .theme-dark .members_cbd271,
+.visual-refresh .theme-dark .member_cbd271,
+.visual-refresh .theme-dark .activityFeed_c25c6e,
+.visual-refresh .theme-dark .nowPlayingColumn_c25c6e,
+.visual-refresh .theme-dark .spotifyActivity_c25c6e,
+.visual-refresh .theme-dark .gameActivity_c25c6e {
+    background-color: var(--bg-2) !important;
+}
+
+/* New Message Components */
+.theme-dark .message_d5deea,
+.theme-dark .messageContent_d5deea,
+.theme-dark .embed_d5deea,
+.theme-dark .embedWrapper_d5deea,
+.theme-dark .reaction_d5deea,
+.theme-dark .reactionMe_d5deea,
+.theme-dark .messageAttachment_d5deea,
+.visual-refresh.theme-dark .message_d5deea,
+.visual-refresh.theme-dark .messageContent_d5deea,
+.visual-refresh.theme-dark .embed_d5deea,
+.visual-refresh.theme-dark .embedWrapper_d5deea,
+.visual-refresh.theme-dark .reaction_d5deea,
+.visual-refresh.theme-dark .reactionMe_d5deea,
+.visual-refresh.theme-dark .messageAttachment_d5deea,
+.visual-refresh .theme-dark .message_d5deea,
+.visual-refresh .theme-dark .messageContent_d5deea,
+.visual-refresh .theme-dark .embed_d5deea,
+.visual-refresh .theme-dark .embedWrapper_d5deea,
+.visual-refresh .theme-dark .reaction_d5deea,
+.visual-refresh .theme-dark .reactionMe_d5deea,
+.visual-refresh .theme-dark .messageAttachment_d5deea {
+    background-color: var(--bg-4) !important;
+    border-color: var(--bg-3) !important;
+}
+
+/* New Thread and Forum Components */
+.theme-dark .threadSummary_bc1b90,
+.theme-dark .threadContainer_bc1b90,
+.theme-dark .forumContainer_f7e923,
+.theme-dark .forumPost_f7e923,
+.theme-dark .postContainer_f7e923,
+.theme-dark .threadEmbed_bc1b90,
+.visual-refresh.theme-dark .threadSummary_bc1b90,
+.visual-refresh.theme-dark .threadContainer_bc1b90,
+.visual-refresh.theme-dark .forumContainer_f7e923,
+.visual-refresh.theme-dark .forumPost_f7e923,
+.visual-refresh.theme-dark .postContainer_f7e923,
+.visual-refresh.theme-dark .threadEmbed_bc1b90,
+.visual-refresh .theme-dark .threadSummary_bc1b90,
+.visual-refresh .theme-dark .threadContainer_bc1b90,
+.visual-refresh .theme-dark .forumContainer_f7e923,
+.visual-refresh .theme-dark .forumPost_f7e923,
+.visual-refresh .theme-dark .postContainer_f7e923,
+.visual-refresh .theme-dark .threadEmbed_bc1b90 {
+    background-color: var(--bg-3) !important;
+    border-color: var(--bg-2) !important;
+}
+
+/* New Voice and Video Components */
+.theme-dark .voiceControls_c25c6e,
+.theme-dark .rtcConnection_c25c6e,
+.theme-dark .videoGrid_c25c6e,
+.theme-dark .streamPreview_c25c6e,
+.theme-dark .videoWrapper_c25c6e,
+.visual-refresh.theme-dark .voiceControls_c25c6e,
+.visual-refresh.theme-dark .rtcConnection_c25c6e,
+.visual-refresh.theme-dark .videoGrid_c25c6e,
+.visual-refresh.theme-dark .streamPreview_c25c6e,
+.visual-refresh.theme-dark .videoWrapper_c25c6e,
+.visual-refresh .theme-dark .voiceControls_c25c6e,
+.visual-refresh .theme-dark .rtcConnection_c25c6e,
+.visual-refresh .theme-dark .videoGrid_c25c6e,
+.visual-refresh .theme-dark .streamPreview_c25c6e,
+.visual-refresh .theme-dark .videoWrapper_c25c6e {
+    background-color: var(--bg-4) !important;
+}
+
+/* New Modal and Popup Components */
+.theme-dark .modal_ae4e74,
+.theme-dark .modalContent_ae4e74,
+.theme-dark .modalHeader_ae4e74,
+.theme-dark .modalFooter_ae4e74,
+.theme-dark .popout_c0b0de,
+.theme-dark .menu_c0b0de,
+.theme-dark .item_c0b0de,
+.visual-refresh.theme-dark .modal_ae4e74,
+.visual-refresh.theme-dark .modalContent_ae4e74,
+.visual-refresh.theme-dark .modalHeader_ae4e74,
+.visual-refresh.theme-dark .modalFooter_ae4e74,
+.visual-refresh.theme-dark .popout_c0b0de,
+.visual-refresh.theme-dark .menu_c0b0de,
+.visual-refresh.theme-dark .item_c0b0de,
+.visual-refresh .theme-dark .modal_ae4e74,
+.visual-refresh .theme-dark .modalContent_ae4e74,
+.visual-refresh .theme-dark .modalHeader_ae4e74,
+.visual-refresh .theme-dark .modalFooter_ae4e74,
+.visual-refresh .theme-dark .popout_c0b0de,
+.visual-refresh .theme-dark .menu_c0b0de,
+.visual-refresh .theme-dark .item_c0b0de {
+    background-color: var(--bg-3) !important;
+    border-color: var(--bg-2) !important;
+}
+
+/* Enhanced Button and Input Styling */
+.theme-dark .lookFilled_dd4f85,
+.theme-dark .lookOutlined_dd4f85,
+.theme-dark .lookInverted_dd4f85,
+.theme-dark .inputDefault_f8bc55,
+.theme-dark .inputFocused_f8bc55,
+.theme-dark .select_f8bc55,
+.theme-dark .selectOpen_f8bc55,
+.visual-refresh.theme-dark .lookFilled_dd4f85,
+.visual-refresh.theme-dark .lookOutlined_dd4f85,
+.visual-refresh.theme-dark .lookInverted_dd4f85,
+.visual-refresh.theme-dark .inputDefault_f8bc55,
+.visual-refresh.theme-dark .inputFocused_f8bc55,
+.visual-refresh.theme-dark .select_f8bc55,
+.visual-refresh.theme-dark .selectOpen_f8bc55,
+.visual-refresh .theme-dark .lookFilled_dd4f85,
+.visual-refresh .theme-dark .lookOutlined_dd4f85,
+.visual-refresh .theme-dark .lookInverted_dd4f85,
+.visual-refresh .theme-dark .inputDefault_f8bc55,
+.visual-refresh .theme-dark .inputFocused_f8bc55,
+.visual-refresh .theme-dark .select_f8bc55,
+.visual-refresh .theme-dark .selectOpen_f8bc55 {
+    background-color: var(--bg-2) !important;
+    border-color: var(--bg-1) !important;
+    color: var(--text-3) !important;
+}
+
+/* New Toolbar and Search Components */
+.theme-dark .toolbar_fc4f04,
+.theme-dark .searchBar_f0963d,
+.theme-dark .searchResult_f0963d,
+.theme-dark .searchFilter_f0963d,
+.theme-dark .channelTextArea_a7d72e,
+.theme-dark .textArea_a7d72e,
+.visual-refresh.theme-dark .toolbar_fc4f04,
+.visual-refresh.theme-dark .searchBar_f0963d,
+.visual-refresh.theme-dark .searchResult_f0963d,
+.visual-refresh.theme-dark .searchFilter_f0963d,
+.visual-refresh.theme-dark .channelTextArea_a7d72e,
+.visual-refresh.theme-dark .textArea_a7d72e,
+.visual-refresh .theme-dark .toolbar_fc4f04,
+.visual-refresh .theme-dark .searchBar_f0963d,
+.visual-refresh .theme-dark .searchResult_f0963d,
+.visual-refresh .theme-dark .searchFilter_f0963d,
+.visual-refresh .theme-dark .channelTextArea_a7d72e,
+.visual-refresh .theme-dark .textArea_a7d72e {
+    background-color: var(--bg-3) !important;
+    border-color: var(--bg-2) !important;
 }

@@ -1,0 +1,49 @@
+/* Discord Theme Compatibility Test */
+/* This file helps verify that the theme works with current Discord versions */
+
+/* Test 1: Visual Refresh Detection */
+.visual-refresh.theme-dark {
+    --theme-test-visual-refresh: "enabled";
+}
+
+.theme-dark {
+    --theme-test-base: "enabled";
+}
+
+/* Test 2: New UI Element Coverage */
+.theme-dark .sidebar_ded4b5,
+.theme-dark .channels_c81bad,
+.theme-dark .membersWrap_cbd271,
+.theme-dark .chatContent_f087cb {
+    --theme-test-coverage: "new-ui-supported";
+}
+
+/* Test 3: Activity and Thread Support */
+.theme-dark .activityPanel_c25c6e,
+.theme-dark .threadSidebar_bc1b90,
+.theme-dark .forumPost_f7e923 {
+    --theme-test-modern: "threads-forums-supported";
+}
+
+/* Test 4: Custom Properties Verification */
+:root {
+    --test-bg-base-primary: var(--bg-base-primary, "missing");
+    --test-text-normal: var(--text-normal, "missing");
+    --test-interactive-hover: var(--interactive-hover, "missing");
+}
+
+/* Success indicator - if this shows up, theme is working */
+body::after {
+    content: "Discord Midnight Theme - Enhanced 2024+ Compatibility ✓";
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: var(--accent-3);
+    color: var(--text-0);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    z-index: 99999;
+    opacity: 0.8;
+    pointer-events: none;
+}

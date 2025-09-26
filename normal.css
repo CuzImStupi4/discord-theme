@@ -1156,9 +1156,44 @@ html.theme-light,
 	--primary-660: var(--bg-3); /* search popout "enter" bar */
 
 	--white-500: var(--text-1);
+	
+	/* Enhanced compatibility for 2024+ Discord */
+	--bg-base-primary: var(--bg-4);
+	--bg-base-secondary: var(--bg-3);
+	--bg-base-tertiary: var(--bg-2);
+	--bg-surface-overlay: var(--bg-3);
+	--bg-surface-raised: var(--bg-2);
+	--text-normal: var(--text-3);
+	--text-muted: var(--text-4);
+	--text-faint: var(--text-5);
+	--interactive-normal: var(--text-4);
+	--interactive-hover: var(--hover);
+	--interactive-active: var(--active);
+	--interactive-muted: var(--text-5);
+	--scrollbar-thin-thumb: var(--bg-2);
+	--scrollbar-thin-track: var(--bg-4);
+	--elevation-stroke: var(--bg-1);
+	--elevation-low: var(--bg-3);
+	--elevation-medium: var(--bg-2);
+	--elevation-high: var(--bg-1);
 }
 
 * {
 	scrollbar-color: unset !important;
 	scrollbar-width: unset !important;
+}
+
+/* Enhanced Visual Refresh Support */
+.visual-refresh .theme-dark,
+.visual-refresh.theme-dark {
+	--bg-base-primary: var(--bg-4);
+	--bg-base-secondary: var(--bg-3);
+	--bg-base-tertiary: var(--bg-2);
+	--bg-surface-overlay: var(--bg-3);
+	--bg-surface-raised: var(--bg-2);
+	--text-normal: var(--text-3);
+	--text-muted: var(--text-4);
+	--interactive-normal: var(--text-4);
+	--interactive-hover: var(--hover);
+	--interactive-active: var(--active);
 }
